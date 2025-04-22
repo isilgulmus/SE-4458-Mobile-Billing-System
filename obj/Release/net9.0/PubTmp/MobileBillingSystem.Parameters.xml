@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="MobileBillingSystem" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Excalibur\\Desktop\\SE\ 4458\\SE\ 4458\ -\ API\ project\ for\ a\ Mobile\ Provider\\MobileBillingSystem\\MobileBillingSystem\\obj\\Release\\net9\.0\\PubTmp\\Out\\$" />
+  </parameter>
+</parameters>
