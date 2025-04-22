@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MobileBillingSystem")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+073a4313ccbe7d5d27d92641f3c81c33fb24be82")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("MobileBillingSystem")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MobileBillingSystem")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

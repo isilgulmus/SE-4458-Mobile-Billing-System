@@ -1,16 +1,13 @@
-# .NET Derleme Çýktýlarý
+
 bin/
 obj/
 
-# ASP.NET Core için Gizli Dosyalar
 appsettings.json
 
 
 .idea/
 
-# Diðer
 .env
 
-# Windows Geçici Dosyalar
 Thumbs.db
 ehthumbs.db
