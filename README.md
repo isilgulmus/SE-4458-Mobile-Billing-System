@@ -80,7 +80,7 @@ This will allow you to access protected endpoints.
 - **Request Body**: 
   ```json
   {
-    "subscriberNo": 123,
+    "subscriberNo": 1,
     "month": 4,
     "year": 2025
   }
@@ -114,7 +114,7 @@ This will allow you to access protected endpoints.
 - **Response**: 
   ```json
   {
-    "message": "Phone Usage: 1000 minutes, Phone Charge: 10 USD\nInternet Usage: 15 GB, Internet Charge: 10 USD\nTotal Amount: 75 USD, Paid Status: Unpaid"
+    "message": "Phone Usage: 3000 minutes, Phone Charge: 10 USD\nInternet Usage: 15 GB, Internet Charge: 10 USD\nTotal Amount: 75 USD, Paid Status: Unpaid"
   }
   ```
 
@@ -122,7 +122,7 @@ This will allow you to access protected endpoints.
 - **Request Body**:
   ```json
   {
-    "subscriberNo": 123,
+    "subscriberNo": 1,
     "month": 4,
     "year": 2025
   }
@@ -140,9 +140,9 @@ This will allow you to access protected endpoints.
 - **Request Body**:
   ```json
   {
-    "subscriberNo": 123,
+    "subscriberNo": 1,
     "usageType": "phone",
-    "amount": 500,
+    "amount": 3000,
     "month": 4,
     "year": 2025
   }
