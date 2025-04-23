@@ -24,14 +24,36 @@ This is an API project for a mobile provider billing system. The project is buil
 - **Entity Framework Core**: For database interaction.
 - **PostgreSQL**: For database management.
 - **Swagger**: For API documentation.
+## Database Setup
+Two example subscribers are already added to the database:
+1. **John Doe**  
+   - **ID**: 1  
+   - **Email**: `john.doe@example.com`
+   
+2. **Jane Smith**  
+   - **ID**: 2  
+   - **Email**: `jane.smith@example.com`
 
-## ER Diagram 
-![ER Diagram](erdiagram.png)
+These subscribers can be used for testing API calls in Swagger.
 
+## Swagger UI
+You can test the API endpoints via **Swagger** UI. Here’s the link to access the documentation:
+
+[Swagger UI](https://mobilebillingsystem-azdrgpeqbeesc8hd.italynorth-01.azurewebsites.net/index.html)
 
 ## API Endpoints
 
 ### Authentication
+After logging in and receiving the JWT token, you need to add the Authorization header to authenticate requests.
+
+In Swagger, set the Authorization header as follows:
+
+ ```Authorization: Bearer {token} ```
+For example:
+
+ ```Authorization: Bearer your_jwt_token_here ```
+This will allow you to access protected endpoints.
+
 
 #### POST `/api/v1/auth/login`
 - **Request Body**: 
@@ -134,12 +156,15 @@ This is an API project for a mobile provider billing system. The project is buil
 - **Bill**: Represents the billing details of a subscriber.
 - **Usage**: Represents the usage of services by the subscriber, like phone calls and internet usage.
 - **Payment**: Represents a payment made for a bill.
+- 
+## ER Diagram 
+![ER Diagram](erdiagram.png)
 
 ## Setup Instructions
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/MobileBillingSystem.git
+   git clone https://github.com/isilgulmus/MobileBillingSystem.git
    ```
 
 2. Install the required NuGet packages:
