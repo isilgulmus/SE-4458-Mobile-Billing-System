@@ -25,6 +25,10 @@ This is an API project for a mobile provider billing system. The project is buil
 - **PostgreSQL**: For database management.
 - **Swagger**: For API documentation.
 
+## ER Diagram 
+![ER Diagram](erdiagram.png)
+
+
 ## API Endpoints
 
 ### Authentication
